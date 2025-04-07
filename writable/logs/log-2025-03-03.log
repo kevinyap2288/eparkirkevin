@@ -1,0 +1,93 @@
+CRITICAL - 2025-03-03 08:44:57 --> syntax error, unexpected 'else' (T_ELSE), expecting end of file
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(124): view('index')
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#8 {main}
+ERROR - 2025-03-03 18:46:01 --> Unknown column 'amount' in 'field list'
+CRITICAL - 2025-03-03 18:46:01 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(129): App\Models\Model2->sumColumn('pembayaran', 'amount')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+CRITICAL - 2025-03-03 18:46:54 --> syntax error, unexpected end of file
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\Cod...')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(125): spl_autoload_call('App\\Models\\Mode...')
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+CRITICAL - 2025-03-03 18:47:09 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('G:\\My Drive\\Cod...')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mode...')
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(125): spl_autoload_call('App\\Models\\Mode...')
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+ERROR - 2025-03-03 18:47:27 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 18:50:29 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 18:59:48 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 19:28:11 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 19:32:09 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 19:35:19 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 19:36:59 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 19:49:16 --> Unknown column 'amount' in 'field list'
+CRITICAL - 2025-03-03 20:02:38 --> syntax error, unexpected '$statusBaru' (T_VARIABLE), expecting ')'
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/showParkin...')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/showParkin...')
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+ERROR - 2025-03-03 20:03:33 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 20:05:57 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 20:06:19 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 20:09:15 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 20:55:07 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 20:55:10 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 20:56:17 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 21:00:15 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 21:00:34 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-03 21:24:11 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-03 21:24:12 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Models\Model2.php(51): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(89): App\Models\Model2->getWhere('pengguna', Array)
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+ERROR - 2025-03-03 21:24:19 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-03-03 21:24:19 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Models\Model2.php(51): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(89): App\Models\Model2->getWhere('pengguna', Array)
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+ERROR - 2025-03-03 21:24:41 --> Unknown column 'amount' in 'field list'

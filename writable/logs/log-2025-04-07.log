@@ -1,0 +1,30 @@
+CRITICAL - 2025-04-07 03:01:02 --> Invalid file: home/reset_password.php
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/reset_pass...')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('home/reset_pass...', Array, true)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(195): view('home/reset_pass...', Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->reset_pass('bbbeb9294d55702...')
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#8 {main}
+CRITICAL - 2025-04-07 03:22:57 --> Invalid file: reset-password.php
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset-password....')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('reset-password', Array, true)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(197): view('reset-password', Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->reset_pass('73fb7dd5f5e816d...')
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#8 {main}
+CRITICAL - 2025-04-07 15:38:22 --> Call to undefined method App\Models\LogActivityModel::log_activity
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(663): CodeIgniter\Model->__call('log_activity', Array)
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->updateStatusReservasi('24')
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+ERROR - 2025-04-07 03:48:42 --> Duplicate entry 'kevin2288oof@gmail.com' for key 'email'
+ERROR - 2025-04-07 03:49:58 --> Duplicate entry 'kevin2288oof@gmail.com' for key 'email'

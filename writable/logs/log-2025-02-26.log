@@ -1,0 +1,140 @@
+CRITICAL - 2025-02-26 01:26:04 --> syntax error, unexpected '$statusBaru' (T_VARIABLE), expecting ')'
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/login')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/login')
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+ERROR - 2025-02-26 01:27:21 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2025-02-26 01:27:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Models\Model2.php(51): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(88): App\Models\Model2->getWhere('pengguna', Array)
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+CRITICAL - 2025-02-26 01:28:01 --> Invalid file: menu.php
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(154): view('menu', Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->showParkingMap()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#8 {main}
+CRITICAL - 2025-02-26 01:28:28 --> Invalid file: parking_map.php
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parking_map.php')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('parking_map', Array, true)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(155): view('parking_map', Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->showParkingMap()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#8 {main}
+CRITICAL - 2025-02-26 01:28:55 --> Invalid file: parking_map.php
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parking_map.php')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('parking_map', Array, true)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(155): view('parking_map', Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->showParkingMap()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#8 {main}
+CRITICAL - 2025-02-26 19:11:48 --> syntax error, unexpected ''isLoggedIn'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/logout')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/logout')
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+ERROR - 2025-02-26 19:26:27 --> Unknown column 'username' in 'field list'
+ERROR - 2025-02-26 19:26:27 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2025-02-26 19:26:27 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(57): App\Models\Model2->getWhere('pengguna', Array)
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_register()
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+ERROR - 2025-02-26 20:43:40 --> Unknown column 'reservasi.waktu_reservasi' in 'order clause'
+CRITICAL - 2025-02-26 20:43:40 --> Call to a member function getResultArray() on bool
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->showParkingHistory()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#5 {main}
+ERROR - 2025-02-26 20:53:11 --> Error connecting to the database: Unknown database 'manajemenparkir'
+CRITICAL - 2025-02-26 20:53:11 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'manajemenparkir'
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `reserva...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(215): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->showParkingHistory()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#8 {main}
+ERROR - 2025-02-26 20:53:20 --> Error connecting to the database: Unknown database 'manajemenparkir'
+CRITICAL - 2025-02-26 20:53:20 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'manajemenparkir'
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `reserva...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(215): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->showParkingHistory()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#8 {main}
+ERROR - 2025-02-26 22:10:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2025-02-26 22:10:21 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Models\Model2.php(51): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(89): App\Models\Model2->getWhere('pengguna', Array)
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+CRITICAL - 2025-02-26 22:18:27 --> Attempt to read property "status" on array
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Views\book_parkir_motor.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\Cod...', 79)
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(210): include('G:\\My Drive\\Cod...')
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('book_parkir_mot...', Array, true)
+#4 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(263): view('book_parkir_mot...', Array)
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->Motorcycle()
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#10 {main}
+CRITICAL - 2025-02-26 22:18:35 --> Attempt to read property "status" on array
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Views\book_parkir_motor.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'G:\\My Drive\\Cod...', 79)
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(210): include('G:\\My Drive\\Cod...')
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('book_parkir_mot...', Array, true)
+#4 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(263): view('book_parkir_mot...', Array)
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->Motorcycle()
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#10 {main}

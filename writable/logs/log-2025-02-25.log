@@ -1,0 +1,52 @@
+CRITICAL - 2025-02-25 20:31:55 --> Cannot use object of type stdClass as array
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('book_parkir', Array, true)
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(141): view('book_parkir', Array)
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->showParkingMap()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+CRITICAL - 2025-02-25 20:32:32 --> Cannot use object of type stdClass as array
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(210): include()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('book_parkir', Array, true)
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(141): view('book_parkir', Array)
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->showParkingMap()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+CRITICAL - 2025-02-25 22:02:35 --> Invalid file: menu.php
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('menu.php')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('menu', Array, true)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(151): view('menu', Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->showParkingMap()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#8 {main}
+CRITICAL - 2025-02-25 22:03:43 --> Invalid file: parking_map.php
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('parking_map.php')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('parking_map', Array, true)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(152): view('parking_map', Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->showParkingMap()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#8 {main}
+ERROR - 2025-02-25 22:08:52 --> Unknown column 'kendaraan' in 'field list'
+ERROR - 2025-02-25 22:08:53 --> Unknown column 'kendaraan' in 'field list'
+ERROR - 2025-02-25 22:08:53 --> Unknown column 'kendaraan' in 'field list'
+ERROR - 2025-02-25 22:08:54 --> Unknown column 'kendaraan' in 'field list'
+ERROR - 2025-02-25 22:08:55 --> Unknown column 'kendaraan' in 'field list'
+ERROR - 2025-02-25 22:08:56 --> Unknown column 'kendaraan' in 'field list'
+ERROR - 2025-02-25 22:08:56 --> Unknown column 'kendaraan' in 'field list'
+ERROR - 2025-02-25 22:08:57 --> Unknown column 'kendaraan' in 'field list'
+ERROR - 2025-02-25 22:08:58 --> Unknown column 'kendaraan' in 'field list'
+ERROR - 2025-02-25 22:08:58 --> Unknown column 'kendaraan' in 'field list'

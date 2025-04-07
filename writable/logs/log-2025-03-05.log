@@ -1,0 +1,62 @@
+ERROR - 2025-03-05 10:54:48 --> Unknown column 'amount' in 'field list'
+ERROR - 2025-03-05 19:52:13 --> Unknown column 'amount' in 'field list'
+CRITICAL - 2025-03-05 19:52:29 --> Class 'App\Models\LogActivityModel' not found
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->viewLog()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#5 {main}
+CRITICAL - 2025-03-05 19:53:56 --> Class 'App\Models\LogActivityModel' not found
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->viewLog()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#5 {main}
+CRITICAL - 2025-03-05 19:57:56 --> Class 'App\Models\LogActivityModel' not found
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->viewLog()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#5 {main}
+CRITICAL - 2025-03-05 19:58:15 --> Class 'App\Models\LogActivityModel' not found
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->viewLog()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#5 {main}
+CRITICAL - 2025-03-05 19:58:47 --> Invalid file: layouts/main.php
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layouts/main.ph...')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(226): CodeIgniter\View\View->render('layouts/main', Array, true)
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('log_activity', Array, true)
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(301): view('log_activity', Array)
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->viewLog()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+CRITICAL - 2025-03-05 20:04:58 --> View themes, no current section.
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Views\log_activity.php(24): CodeIgniter\View\View->endSection()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(210): include('G:\\My Drive\\Cod...')
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('log_activity', Array, true)
+#4 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(301): view('log_activity', Array)
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->viewLog()
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#10 {main}
+ERROR - 2025-03-05 20:45:58 --> Unknown column 'amount' in 'field list'
+CRITICAL - 2025-03-05 21:16:31 --> Call to undefined method App\Controllers\Home::logActivity()
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#5 {main}
+ERROR - 2025-03-05 21:17:45 --> Unknown column 'amount' in 'field list'

@@ -1,0 +1,152 @@
+ERROR - 2025-04-06 11:58:07 --> Error connecting to the database: Host 'localhost' is not allowed to connect to this MariaDB server
+CRITICAL - 2025-04-06 11:58:07 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Models\Model2.php(51): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): App\Models\Model2->getWhere('pengguna', Array)
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+ERROR - 2025-04-06 11:58:23 --> Error connecting to the database: Host 'localhost' is not allowed to connect to this MariaDB server
+CRITICAL - 2025-04-06 11:58:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Models\Model2.php(51): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): App\Models\Model2->getWhere('pengguna', Array)
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#9 {main}
+ERROR - 2025-04-06 11:58:31 --> Error connecting to the database: Host 'localhost' is not allowed to connect to this MariaDB server
+CRITICAL - 2025-04-06 11:58:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Views\header.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(210): include('G:\\My Drive\\Cod...')
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(109): view('header')
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#12 {main}
+ERROR - 2025-04-06 11:58:40 --> Error connecting to the database: Host 'localhost' is not allowed to connect to this MariaDB server
+CRITICAL - 2025-04-06 11:58:40 --> Unable to connect to the database.
+Main connection [MySQLi]: Host 'localhost' is not allowed to connect to this MariaDB server
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Views\header.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(210): include('G:\\My Drive\\Cod...')
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(109): view('header')
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#12 {main}
+ERROR - 2025-04-06 12:03:17 --> Error connecting to the database: Unknown database 'manajemenparkir'
+CRITICAL - 2025-04-06 12:03:17 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'manajemenparkir'
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Views\header.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(210): include('G:\\My Drive\\Cod...')
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(109): view('header')
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#12 {main}
+ERROR - 2025-04-06 12:03:26 --> Error connecting to the database: Unknown database 'manajemenparkir'
+CRITICAL - 2025-04-06 12:03:26 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'manajemenparkir'
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 G:\My Drive\CodeIgniter4-4.1.9\app\Views\header.php(8): CodeIgniter\Database\BaseBuilder->get()
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(210): include('G:\\My Drive\\Cod...')
+#4 G:\My Drive\CodeIgniter4-4.1.9\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Common.php(1089): CodeIgniter\View\View->render('header', Array, true)
+#6 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(109): view('header')
+#7 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->login()
+#8 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#12 {main}
+ERROR - 2025-04-06 12:05:05 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2025-04-06 12:05:05 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): App\Models\Model2->getWhere('pengguna', Array)
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+ERROR - 2025-04-06 12:06:32 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2025-04-06 12:06:32 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): App\Models\Model2->getWhere('pengguna', Array)
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+ERROR - 2025-04-06 12:07:31 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2025-04-06 12:07:31 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): App\Models\Model2->getWhere('pengguna', Array)
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+ERROR - 2025-04-06 12:08:03 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2025-04-06 12:08:03 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): App\Models\Model2->getWhere('pengguna', Array)
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+ERROR - 2025-04-06 12:08:18 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2025-04-06 12:08:18 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): App\Models\Model2->getWhere('pengguna', Array)
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+ERROR - 2025-04-06 12:09:37 --> Unknown column 'username' in 'where clause'
+CRITICAL - 2025-04-06 12:09:37 --> Call to a member function getRow() on bool
+#0 G:\My Drive\CodeIgniter4-4.1.9\app\Controllers\Home.php(47): App\Models\Model2->getWhere('pengguna', Array)
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
+CRITICAL - 2025-04-06 12:48:13 --> syntax error, unexpected 'else' (T_ELSE)
+#0 G:\My Drive\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/user')
+#1 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/user')
+#2 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 G:\My Drive\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 G:\My Drive\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 G:\My Drive\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('G:\\My Drive\\Cod...')
+#6 {main}
